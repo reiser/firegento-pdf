@@ -1053,7 +1053,7 @@ abstract class FireGento_Pdf_Model_Engine_Abstract
     protected function _insertFooter(&$page)
     {
         $page->setLineColor($this->colors['black']);
-        $page->setLineWidth(0.5);
+        $page->setLineWidth(0.1);
         $page->drawLine($this->margin['left'] - 20, $this->y - 5,
             $this->margin['right'] + 30, $this->y - 5);
 
